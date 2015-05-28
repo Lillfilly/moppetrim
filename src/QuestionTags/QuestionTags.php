@@ -26,7 +26,7 @@ EOD;
 
     public function getQuestionsForTag($tag){
 	$tag = strtoupper($tag);
-	$sql = 'SELECT Q.* FROM Questions AS Q INNER JOIN QuestionTags AS QT ON QT.questionId = Q.id WHERE QT.tag = ?';
+	$sql = 'SELECT Q.*, U.name FROM Questions AS Q INNER JOIN QuestionTags AS QT ON QT.questionId = Q.id INNER JOIN Users AS U ON U.id = Q.userId WHERE QT.tag = ?';
 	$params = [$tag];
 	
 	return $this->db->executeFetchAll($sql, $params);

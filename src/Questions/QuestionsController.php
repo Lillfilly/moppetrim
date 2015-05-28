@@ -27,7 +27,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 		if(isset($_GET['question'])){
 		    $this->response->redirect($this->url->create('questions/id/' . $_GET['id']));
 		}else{
-		    $this->response->redirect($this->url->create('questions'));
+		    $this->response->redirect($this->url->create(''));
 		}
 	    }
 	    if($_GET['type'] == 'a'){
@@ -164,7 +164,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
 
 	$showAccept = false;
 	if($user != NULL){
-	    if($user->getProperties()['id'] == $id){
+	    if($user->getProperties()['id'] == $question->userId){
 		$showAccept = true;
 	    }
 	    foreach($answers as $a){

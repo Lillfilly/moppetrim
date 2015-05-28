@@ -7,7 +7,7 @@
     <a href="<?=$this->url->create('questions/id/' . $question->id)?>"><h3><?=$question->header?></h3></a>
     <hr />
     <p>
-	Frågan ställd av: <a href="<?=$this->url->create('users/id/' . $question->userId)?>"><?= $question->userId ?></a>
+	Frågan ställd av: <a href="<?=$this->url->create('users/id/' . $question->userId)?>"><?= $question->name ?></a>
     </p>
     <p>
 	<strong>Tags:</strong>
