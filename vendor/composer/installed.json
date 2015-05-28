@@ -1,0 +1,188 @@
+[
+    {
+        "name": "phpmvc/comment",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/phpmvc-comment.git",
+            "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/phpmvc-comment/zipball/ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+            "reference": "ea5c43e8bb3f723d6fb69c892500d26c7390eb37",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-04-02 12:59:02",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phpmvc\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Various base classes for comments management",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "comments",
+            "education"
+        ]
+    },
+    {
+        "name": "mos/cform",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cform.git",
+            "reference": "6e58aa0c0f128af725bccd50c6a806a5d6953683"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cform/zipball/6e58aa0c0f128af725bccd50c6a806a5d6953683",
+            "reference": "6e58aa0c0f128af725bccd50c6a806a5d6953683",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2015-03-25 16:38:47",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for HTML Forms",
+        "homepage": "http://dbwebb.se/",
+        "keywords": [
+            "Forms",
+            "education",
+            "html"
+        ]
+    },
+    {
+        "name": "mos/cdatabase",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cdatabase.git",
+            "reference": "5746aa83f062321f8f9016f0bc57a6c0e65300fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/5746aa83f062321f8f9016f0bc57a6c0e65300fb",
+            "reference": "5746aa83f062321f8f9016f0bc57a6c0e65300fb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2015-03-13 15:36:43",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP classes for database handling upon PDO",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "education",
+            "framework",
+            "micro",
+            "module",
+            "mvc"
+        ]
+    },
+    {
+        "name": "duplo/flash",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Lillfilly/duploflash.git",
+            "reference": "59b1df4951bb626530e19f7fdbea75002de73632"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Lillfilly/duploflash/zipball/59b1df4951bb626530e19f7fdbea75002de73632",
+            "reference": "59b1df4951bb626530e19f7fdbea75002de73632",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2015-05-11 21:48:26",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Duplo\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Duplo",
+                "email": "olor14@student.bth.se",
+                "homepage": "http://www.student.bth.se/~olor14/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple and easy way of using the session to store messages that survives redirects",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "anax mvc",
+            "education",
+            "flash",
+            "session"
+        ]
+    }
+]

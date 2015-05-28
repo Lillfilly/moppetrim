@@ -1,0 +1,1 @@
+<span class="tag"><a href="<?=$this->url->create('tags/filter/'.strtolower($tag->tag))?>"><?= $tag->tag ?></a></span>

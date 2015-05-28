@@ -1,0 +1,139 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+}
+
+h1 {
+  /*font-size: 2.2em*/
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+.sitelogo {
+    width: 100px;
+    height: 100px;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 44px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+.user{
+    float:left;
+
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 8px 10px;
+
+    width: 44%;
+    margin: 1%;
+
+    height: 6em;
+}
+.user p{
+    padding-left: 120px;
+}
+.user figure{
+    float:left;
+    margin-left: 10px;
+}
+.question{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.tag{
+    border: 1px solid gray;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.answer{
+    border: 3px inset gray;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #EFEFEF
+}
+.answer.accepted{
+    background-color: #EAFFEA
+}
+.comment{
+    border: 3px solid gray;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #FEFEFE
+}
